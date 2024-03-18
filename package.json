@@ -1,23 +1,22 @@
 {
-  "name": "stx",
-  "version": "1.0.0",
+  "name": "stxmap-address-rank",
+  "version": "1.0.2",
   "description": "",
-  "main": "main.js",
-  "type": "module",
+  "main": "scaner.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scaner"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsql/stxmap-address-rank"
+  },
+  "keywords": [
+    "stxmap"
+  ],
+  "author": "fsql",
   "license": "ISC",
-  "dependencies": {
-    "@stacks/blockchain-api-client": "^7.4.0",
-    "@stacks/network": "^6.10.0",
-    "@stacks/transactions": "^6.11.0",
-    "bip32": "^4.0.0",
-    "bip39": "^3.1.0",
-    "bitcoinjs-lib": "^6.1.5",
-    "node-fetch": "^3.3.2",
-    "redis": "^4.6.12",
-    "tiny-secp256k1": "^2.2.3"
-  }
+  "bugs": {
+    "url": "https://github.com/fsql/stxmap-address-rank/issues"
+  },
+  "homepage": "https://github.com/fsql/stxmap-address-rank#readme"
 }
