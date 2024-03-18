@@ -1,6 +1,6 @@
 {
   "name": "stxmap-address-rank",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "scaner.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/fsql/stxmap-address-rank/issues"
   },
-  "homepage": "https://github.com/fsql/stxmap-address-rank#readme"
+  "homepage": "https://github.com/fsql/stxmap-address-rank#readme",
+  "dependencies": {
+    "@stacks/blockchain-api-client": "^7.9.0"
+  }
 }
