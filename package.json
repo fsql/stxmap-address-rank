@@ -1,6 +1,6 @@
 {
   "name": "stxmap-address-rank",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "scaner.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fsql/stxmap-address-rank"
+    "url": "git+https://github.com/fsql/stxmap-address-rank.git"
   },
   "keywords": [
     "stxmap"
