@@ -1,25 +1,35 @@
 {
   "name": "stxmap-address-rank",
-  "version": "1.0.5",
-  "description": "",
-  "main": "scaner.js",
+  "version": "1.0.8",
   "scripts": {
-    "test": "node scaner"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fsql/stxmap-address-rank.git"
+    "url": "https://github.com/fsql/stxmap-address-rank"
   },
   "keywords": [
     "stxmap"
   ],
-  "author": "fsql",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fsql/stxmap-address-rank/issues"
-  },
-  "homepage": "https://github.com/fsql/stxmap-address-rank#readme",
   "dependencies": {
-    "@stacks/blockchain-api-client": "^7.9.0"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.1.3",
+	"stxmap-rank-cli": "^1.0.6"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.3",
+	"stxmap-rank-cli": "^1.0.6"
   }
 }
